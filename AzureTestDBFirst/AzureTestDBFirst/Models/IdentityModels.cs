@@ -29,5 +29,7 @@ namespace AzureTestDBFirst.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<AzureTestDBFirst.Test> Tests { get; set; }
     }
 }
